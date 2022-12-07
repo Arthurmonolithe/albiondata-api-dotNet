@@ -13,7 +13,7 @@ namespace albiondata_api_dotNet
 
     [Option(Description = "Max age in Hours of returned orders", ShortName = "a", ShowInHelpText = true)]
     [Range(1, 168)]
-    public static int MaxAge { get; set; } = 24;
+    public static int MaxAge { get; set; } = 96;
 
     [Option(Description = "Enable Debug Logging", ShortName = "d", LongName = "debug", ShowInHelpText = true)]
     public static bool Debug { get; set; }
